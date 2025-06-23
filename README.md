@@ -1,46 +1,82 @@
-# Getting Started with Create React App
+# Desafio Conec - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é o frontend do desafio técnico da empresa Conec, desenvolvido com React e TypeScript.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
 
-### `npm start`
+- React  
+- TypeScript  
+- Styled Components  
+- Axios  
+- React Router DOM  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Pré-requisitos
 
-### `npm test`
+Antes de começar, certifique-se de ter instalado em sua máquina:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (versão 16 ou superior)  
+- npm ou yarn  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como rodar o projeto localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/tamisouzza/desafio-conec-frontend.git
 
-### `npm run eject`
+2. Acesse o diretório do projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+cd desafio-conec-frontend
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Instale as dependências:
+npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Configure as variáveis de ambiente:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Crie um arquivo .env na raiz do projeto com as variáveis necessárias, por exemplo:
 
-## Learn More
+REACT_APP_API_URL=https://seu-backend-url.com
+REACT_APP_GOOGLE_CLIENT_ID=seu-google-client-id
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Inicie o servidor de desenvolvimento:
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+6. Abra o navegador e acesse:
+
+http://localhost:3000
+
+Testes
+
+Para rodar os testes automatizados, use:
+
+npm test
+
+Build para produção
+
+Para gerar uma build otimizada para produção:
+
+npm run build
+Os arquivos serão gerados na pasta build/.
+
+Deploy
+
+Para fazer o deploy da aplicação, você pode usar serviços como Vercel, Netlify, Surge, entre outros. Faça o upload da pasta build/ gerada.
+
+Estrutura do Projeto
+
+src/components - Componentes React reutilizáveis
+
+src/pages - Páginas da aplicação
+
+src/context - Contextos para gerenciamento global de estado
+
+src/services - Serviços para comunicação com APIs
+
+public/ - Arquivos estáticos
+
