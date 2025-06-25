@@ -1,6 +1,6 @@
 # Desafio Conec - Frontend
 
-Este projeto é o frontend do desafio técnico da empresa Conec, desenvolvido com React e TypeScript.
+Este projeto é o frontend  desenvolvido com React e TypeScript.
 
 ---
 
