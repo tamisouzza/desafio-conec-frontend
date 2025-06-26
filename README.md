@@ -146,11 +146,9 @@ Google login (extra)
 
 Deploy with public links
 
-🔹 How to run
+ How to run
 Backend
-bash
-Copiar
-Editar
+
 # Clone the repository
 git clone https://github.com/tamisouzza/desafio-conec-backend.git
 
@@ -169,9 +167,7 @@ npx prisma migrate dev
 # Start the server
 npm run start:dev
 Frontend
-bash
-Copiar
-Editar
+
 # Clone the repository
 git clone https://github.com/tamisouzza/desafio-conec-frontend.git
 
