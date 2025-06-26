@@ -80,3 +80,119 @@ src/services - Serviços para comunicação com APIs
 
 public/ - Arquivos estáticos
 
+
+Fullstack Project
+
+ Objective
+Build a fullstack application with authentication and user management, following the proposed specifications.
+
+ Technologies
+Backend
+NestJS
+
+TypeScript
+
+PostgreSQL
+
+Prisma ORM
+
+JWT (Authentication)
+
+Bcrypt (Password encryption)
+
+Swagger (API documentation)
+
+Jest (Unit tests)
+
+Frontend
+React
+
+TypeScript
+
+Axios
+
+Styled-Components
+
+React Router v6
+
+Context API
+
+Vite
+
+Vercel (Deployment)
+
+ Features
+JWT authentication
+
+Login and registration
+
+User roles: Admin and User
+
+List, create, update and delete users (CRUD)
+
+Filter by name and status (active/inactive)
+
+User profile page
+
+Responsive layout
+
+Protected routes
+
+Documentation with Swagger
+
+Unit testing
+
+Google login (extra)
+
+Deploy with public links
+
+🔹 How to run
+Backend
+bash
+Copiar
+Editar
+# Clone the repository
+git clone https://github.com/tamisouzza/desafio-conec-backend.git
+
+# Navigate to the folder
+cd desafio-conec-backend
+
+# Install dependencies
+npm install
+
+# Configure the database
+# Create a .env file based on .env.example and update your PostgreSQL connection
+
+# Run migrations
+npx prisma migrate dev
+
+# Start the server
+npm run start:dev
+Frontend
+bash
+Copiar
+Editar
+# Clone the repository
+git clone https://github.com/tamisouzza/desafio-conec-frontend.git
+
+# Navigate to the folder
+cd desafio-conec-frontend
+
+# Install dependencies
+npm install
+
+# Create a .env file and set the API URL
+REACT_APP_API_URL=https://desafio-conec-backend.onrender.com
+
+# Run the app
+npm run dev
+ Deploy
+Frontend Vercel
+
+Backend Render
+
+ Author
+Developed by Tamiris Soares
+
+
+
